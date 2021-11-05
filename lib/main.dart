@@ -26,8 +26,8 @@ Future<Album> fetchAlbum() async {
   );
   Dio dio = Dio(options);
   FormData formData = FormData.fromMap({
-    "email": 'admin',
-    "password": 'CHAOSpbvu7000',
+    "email": '',
+    "password": '',
     "sessionGUID": '38b919a9-6be6-4918-9c9e-d9a0e77ef31c',
     "format": 'json2',
     "userHTTPStatusCodes": 'False',
